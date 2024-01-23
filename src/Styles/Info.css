@@ -1,0 +1,182 @@
+.info-section {
+    padding: 0 32px;
+    text-align: center;
+    background-color: white;
+}
+.info-title-content {
+    margin: 64px 0 128px 0;
+}
+.info-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.info-title > span {
+    position: relative;
+}
+.info-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+.info-description {
+    margin: 64px;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 1.8rem;
+}
+/* Cards */
+.info-cards-content {
+    margin: 64px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.info-cards {
+    height: auto;
+    border: 2px solid #d7d3d3;
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+}
+.info-card-title {
+    margin: 32px 0 40px 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: .8px;
+}
+.info-card-description {
+    margin: 24px;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 1.5rem;
+}
+.info-card-icon {
+    position: absolute;
+    top: -24px;
+    left: 44%;
+    padding: 10px;
+    background-color: #DCE6FF;
+    border-radius: 30px;
+}
+.info-fa-icon {
+    color: #364a60;
+    font-size: 24px;
+}
+/* Responsive */
+@media screen and (max-width: 1000px) {
+    .info-description {
+        margin: 64px 32px;
+    }
+    .info-cards-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .info-description {
+        margin: 64px 8px;
+    }
+    .info-cards-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* -----------------------------new card---------------------------------------- */
+.newcard-title {
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .newcard {
+    display: block;
+    position: relative;
+    max-width: 500px;
+    max-height: 520px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .newcard:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #364a60, #384c6c);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .newcard:hover:before {
+    transform: scale(35);
+  }
+  
+  .newcard:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .newcard:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,122 @@
+.navbar-section {
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+}
+.navbar-title a {
+    color: #1A8EFD;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+}
+.navbar-title {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-sign {
+    color: #54de54;
+    font-family: Cambria, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+     .card {
+        width: 190px;
+        height: 254px;
+        border-radius: 20px;
+        background: #f5f5f5;
+        position: relative;
+        padding: 1.8rem;
+        border: 2px solid #c3c6ce;
+        transition: 0.5s ease-out;
+        overflow: visible;
+
+        display: inline-block;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        margin-right: 5rem;
+       }
+       
+       .card-details {
+        color: black;
+        height: 100%;
+        gap: .5em;
+        display: grid;
+        place-content: center;
+       }
+       
+       .card-button {
+        transform: translate(-50%, 125%);
+        width: 60%;
+        border-radius: 1rem;
+        border: none;
+        background-color: #364a60;
+        color: #fff;
+        font-size: 1rem;
+        padding: .5rem 1rem;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        opacity: 0;
+        transition: 0.3s ease-out;
+       }
+       
+       .text-body {
+        color: rgb(134, 134, 134);
+       }
+       
+       /*Text*/
+       .text-title {
+        font-size: 1.5em;
+        font-weight: bold;
+       }
+       
+       /*Hover*/
+       .card:hover {
+        border-color: #364a60;
+        box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+       }
+       
+       .card:hover .card-button {
+        transform: translate(-50%, 50%);
+        opacity: 1;
+       }
+
+.render-images{
+    width: 185px;
+    height: 222px;
+    border-radius: 20px;
+    margin-bottom: 0.2rem;
+    
+}
+.des-show{
+    
+    margin-top: .5rem;
+    font-family:serif;
+}
+
+
+   /* ---------------------------------button appointment-------------------------------- */
+   .text-appointment-btn {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #364a60;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+.text-appointment-btn:hover {
+    color: #364a60;
+    background-color: transparent;
+    border: 1px solid #364a60;
+}

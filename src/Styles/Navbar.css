@@ -1,0 +1,320 @@
+.navbar-section {
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+}
+.navbar-title a {
+    color: #364a60;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+}
+.navbar-title {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-sign {
+    color: #54de54;
+    font-family: Cambria, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-items > li {
+    list-style-type: none;
+}
+.navbar-links {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: .8px;
+}
+.navbar-links:hover {
+    color: #0a0a0a;
+}
+.navbar-btn {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #364a60;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.navbar-btn:hover {
+    color: #000000;
+    background-color: white;
+    border: 1px solid #000000;
+}
+/* Hamburger Icon */
+.mobile-nav {
+    display: none;
+}
+.hamb-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.hamb-icon:hover {
+    color: #364a60;
+}
+/* Mobile Navbar */
+.mobile-navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: white;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    transition: left .5s ease-in-out;
+}
+.mobile-navbar-close {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+.mobile-navbar-close .hamb-icon:hover {
+    color: rgb(255, 22, 22);
+}
+.open-nav {
+    left: 0;
+}
+.mobile-navbar-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 24px;
+    text-align: center;
+}
+.mobile-navbar-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: .8px;
+    transition: color .3s ease-in-out;
+}
+.mobile-navbar-links li a:hover {
+    color: #0cc2ea;
+}
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .navbar-btn, .navbar-items {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+}
+
+.login{
+    padding: .5rem;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    outline: transparent;
+    background-color: #364a60;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.login:hover {
+    color: #364a60;
+    background-color: transparent;
+    border: 1px solid #364a60;
+}
+
+/* ----------------------------------------Search bar------------------------------ */
+
+.searchbar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .searchbar:hover {
+    box-shadow: 0 1px 6px #000000;
+    border-color: #000000;
+  }
+  
+  .searchbar-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+  }
+  
+  .searchbar-left {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-icon-wrapper {
+    margin: auto;
+  }
+  
+  .search-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+  }
+  
+  .searchbar-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .searchbar-center {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .searchbar-input-spacer {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+  }
+  
+  .searchbar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .searchbar-right {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+  }
+  
+  .searchbar-clear-icon {
+    margin-right: 12px
+  }
+  
+  .voice-search {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 2.8em;
+  }
+/* ------------------------------------------profile---------------------------------------- */
+
+.user-picture {
+    overflow: hidden;
+    object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+    border: 4px solid #fff;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .user-picture svg {
+    width: 2.5rem;
+    fill: currentColor;
+  }
+
+  /* ------------------------------navbar items style----------------------------- */
+  
+  .newbutton {
+    font-size: 18px;
+    color: #222;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .newbutton:focus,
+  .newbutton:hover {
+    color: #222;
+  }
+  
+  .newbutton:focus:after,
+  .newbutton:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .newbutton:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }

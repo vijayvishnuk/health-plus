@@ -1,0 +1,18 @@
+
+{
+    "users":[
+    {
+    " PatientName ":"Sanjay",
+        "Contact":"9344171854",
+        "Time":"7:30AM",
+        "Status":"Pending"   
+    },
+    {
+        "PatientName" :"Cholan",
+        "Contact":"9301718546",
+        "Time":"8:30AM",
+        "Status":"Pending" 
+    }
+        ]
+
+}

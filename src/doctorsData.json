@@ -1,0 +1,158 @@
+[
+    {
+        "id" :1,
+        "image" :"https://img.freepik.com/free-photo/young-medical-student_144627-9948.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Endocrinologist",
+        "info" :"Endocrinologists are medical specialists who focus on the endocrine system, which includes hormones and glands regulating various bodily functions. They diagnose and treat conditions related to hormones, such as diabetes, thyroid disorders, and hormonal imbalances. Endocrinologists often collaborate with other healthcare professionals to provide comprehensive care for patients. Their expertise helps manage conditions that impact metabolism, growth, and reproductive health."  
+    },
+    {
+        "id" :2,
+        "image" :"https://img.freepik.com/free-photo/young-beautiful-successful-female-doctor-with-stethoscope-portrait_186202-1506.jpg?w=740&t=st=1703065291~exp=1703065891~hmac=09c05875b1c3ec123b13f0ff9a64bd03890912f72b1c74cf2ba806f0423b2051",
+        "title" :"doctor",
+        "description" :"Family Medicine",
+        "info" :"Family medicine physicians are primary care doctors who provide comprehensive healthcare to individuals and families of all ages. They address a wide range of medical issues, offering preventive care, diagnosing and treating common illnesses, and managing chronic conditions. Family medicine practitioners emphasize building long-term relationships with patients to better understand their overall health needs. These doctors play a crucial role in promoting wellness and coordinating specialized care when necessary."   
+    },
+    {
+        "id" :3,
+        "image" :"https://img.freepik.com/free-photo/portrait-attractive-male-doctor_329181-622.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Pediatrician",
+        "info" :"Pediatricians are specialized doctors who focus on the health and well-being of infants, children, and adolescents. They provide preventive care, vaccinations, and treat common childhood illnesses and injuries. Pediatricians monitor growth and development, offering guidance to parents on nutrition, behavior, and overall health. Their expertise is vital in ensuring the optimal physical and emotional development of young patients."   
+    },
+    {
+        "id" :4,
+        "image" :"https://img.freepik.com/free-photo/portrait-happy-laughing-mature-male-doctor-with-stethoscope_186202-1191.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Psychiatrists"   
+    },
+
+    {
+        "id" :5,
+        "image" :"https://img.freepik.com/free-photo/doctor-smiling-with-stethoscope_1154-36.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Dermatologist"   
+    },
+    {
+        "id" :6,
+        "image" :"https://img.freepik.com/free-photo/portrait-young-doctor-man_144627-21843.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Oncologist"   
+    },
+
+    {
+        "id" :7,
+        "image" :"https://img.freepik.com/free-photo/young-beautiful-successful-female-doctor-with-stethoscope-isolated_186202-1264.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Neurologist"   
+    },
+    {
+        "id" :8,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Gynecologists"   
+    },
+    {
+        "id" :9,
+        "image" :"https://img.freepik.com/free-psd/doctor-preparing-routine-medical-check_23-2150493277.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Cardiologist"   
+    },
+    {
+        "id" :10,
+        "image" :"https://t4.ftcdn.net/jpg/06/54/97/01/240_F_654970184_dEYNq05MhsUnDymDdtJLhTViSQEwRR2j.jpg",
+        "title" :"doctor",
+        "description" :"Endocrinologist"   
+    },
+    {
+        "id" :11,
+        "image" :"https://t3.ftcdn.net/jpg/06/48/69/42/240_F_648694278_haC94bdL26EedqLMIbMpLACqzxwuvq4f.jpg",
+        "title" :"doctor",
+        "description" :"Neurologist"   
+    },
+    {
+        "id" :12,
+        "image" :"https://t3.ftcdn.net/jpg/02/39/34/48/240_F_239344862_Ot00ghbj9KrUi3jzLR8pdlKKplFKSKrh.jpg",
+        "title" :"doctor",
+        "description" :"Cardiologist"   
+    },
+    {
+        "id" :13,
+        "image" :"https://t4.ftcdn.net/jpg/06/72/23/59/240_F_672235942_1eJtvqmZxEy39dNoTRAZJi0g0U5ziNhi.jpg",
+        "title" :"doctor",
+        "description" :"Family Medicine"   
+    },
+    {
+        "id" :14,
+        "image" :"https://t3.ftcdn.net/jpg/02/98/18/02/240_F_298180242_Llf0dK7UaycXV8dYV4mTMEzA9tA3vK36.jpg",
+        "title" :"doctor",
+        "description" :"Gynecologists"   
+    },
+    {
+        "id" :15,
+        "image" :"https://t3.ftcdn.net/jpg/02/25/70/72/240_F_225707262_FkCbHWQDwo0yKBR1sRlxir66PqfSOhDU.jpg",
+        "title" :"doctor",
+        "description" :"Psychiatrists"   
+    },
+    {
+        "id" :16,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Neurologist"   
+    },
+    {
+        "id" :17,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Psychiatrists"   
+    },
+    {
+        "id" :18,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Family Medicine"   
+    },
+    {
+        "id" :19,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Gynecologists"   
+    },
+    {
+        "id" :20,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Family Medicine"   
+    },
+    {
+        "id" :21,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Neurologist"   
+    },
+    {
+        "id" :22,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Gynecologists"   
+    },
+    {
+        "id" :23,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Family Medicine"   
+    },
+    {
+        "id" :24,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Gynecologists"   
+    },
+    {
+        "id" :25,
+        "image" :"https://img.freepik.com/premium-photo/smiling-nurse-portrait-isolated-white-using-digital-tablet_53419-9441.jpg?size=626&ext=jpg&ga=GA1.1.1078167185.1703051383&semt=ais",
+        "title" :"doctor",
+        "description" :"Neurologist"   
+    }
+
+]
