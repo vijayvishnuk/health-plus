@@ -7,10 +7,6 @@ import BookAppointment from "../Components/BookAppointment";
 import Reviews from "../Components/Reviews";
 import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
-
-
-
-
 function Home() {
   return (
     <div className="home-section">

@@ -39,7 +39,6 @@ function Navbar() {
       });
     }
   };
-
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
